@@ -10,6 +10,7 @@ body{
     font-family: sans-serif;
     padding-top: 50px;
     background-color: black;
+    color: white;
 }
 
 main{
@@ -21,12 +22,30 @@ main{
 /*Header*/
 header{
     height: 50px;
-    position: fixed;
     width: 100%;
+    position: fixed;
     top: 0;
     left: 0;
-    /* background-color: yellow; */
-    flex-shrink: 0;
+}
+
+.header-container{
+    position: relative;
+}
+
+/* header details */
+.speaker-view{
+    padding: 10px 5px;
+    position: absolute;
+    right: 70px;
+    top: 5px;
+}
+
+.speaker{
+    background-color: lightgrey;
+    padding: 5px;
+    margin: 0 3px;
+    display: inline-block;
+    border-radius: 6px;
 }
 
 
@@ -34,9 +53,6 @@ header{
 .container{
     max-width: 1700px;
     margin: 30px auto;
-    /* padding: 20px 0; 
-    background-color: aqua; 
-    height: 800px;*/
 }
 
 .row{
@@ -51,33 +67,28 @@ header{
     max-width: 300px;
     padding: 5px; 
     position: relative;
-    /* height: 200px; 
-    border: 2px dashed black;
-    background-color: white;*/
-}
-
-img{
-    height: 150px;
-    /* max-width: 100%; */
 }
 
 .name-image{
     position: absolute;
-    /* top: calc(100% - 30px); */
     left: 0;
     bottom: 0;
     transform: translate(0, -5px);
     background-color: rgba(0, 0, 0, 0.3);
-    color: white;
+    /* color: white; */
     font-size: 15px;
     padding: 5px;
 }
 
+img{
+    height: 150px;
+}
+
+/* footer */
 footer{
     height: 80px;
     width: 100%;
-    /* background-color: brown; */
-    flex-shrink: 0;
+    background-color: lightgray;
 }
 
 
