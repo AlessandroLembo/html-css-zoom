@@ -44,12 +44,12 @@ header{
     justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
-    margin: 0 -5px;
+    margin: 0 -5px; 
 }
 
 .card{
     max-width: 300px;
-    padding: 5px;
+    padding: 5px; 
     position: relative;
     /* height: 200px; 
     border: 2px dashed black;
@@ -63,8 +63,10 @@ img{
 
 .name-image{
     position: absolute;
-    top: calc(100% - 30px);
+    /* top: calc(100% - 30px); */
     left: 0;
+    bottom: 0;
+    transform: translate(0, -5px);
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     font-size: 15px;
