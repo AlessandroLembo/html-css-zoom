@@ -5,3 +5,20 @@
     box-sizing: border-box;
 }
 
+/* Generics */
+body{
+    font-family: sans-serif;
+    padding-top: 100px;
+}
+
+/*Header*/
+header{
+    height: 80px;
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
