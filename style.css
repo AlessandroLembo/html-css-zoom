@@ -25,7 +25,7 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    background-color: yellow;
+    /* background-color: yellow; */
     flex-shrink: 0;
 }
 
@@ -34,28 +34,49 @@ header{
 .container{
     max-width: 1700px;
     margin: 30px auto;
-    padding: 20px 0;
+    /* padding: 20px 0; 
     background-color: aqua; 
-    height: 800px;
+    height: 800px;*/
+}
+
+.row{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
+    margin: 0 -5px;
 }
 
 .card{
-    width: 300px;
-    height: 200px;
+    max-width: 300px;
+    padding: 5px;
+    position: relative;
+    /* height: 200px; 
     border: 2px dashed black;
-    background-color: white;
+    background-color: white;*/
 }
 
+img{
+    height: 150px;
+    /* max-width: 100%; */
+}
 
+.name-image{
+    position: absolute;
+    top: calc(100% - 30px);
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
 
 footer{
     height: 80px;
     width: 100%;
-    background-color: brown;
+    /* background-color: brown; */
     flex-shrink: 0;
 }
+
+
 
