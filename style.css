@@ -64,7 +64,8 @@ header{
 }
 
 .card{
-    max-width: 300px;
+    /* max-width: 300px; */
+    flex-basis: 300px;
     padding: 5px; 
     position: relative;
 }
@@ -81,7 +82,9 @@ header{
 }
 
 img{
-    height: 150px;
+    /* height: 150px; */
+    max-width: 300px;
+    display: block;
 }
 
 /* footer */
