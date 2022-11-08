@@ -64,7 +64,6 @@ header{
 }
 
 .card{
-    /* max-width: 300px; */
     flex-basis: 300px;
     padding: 5px; 
     position: relative;
@@ -76,13 +75,11 @@ header{
     bottom: 0;
     transform: translate(0, -5px);
     background-color: rgba(0, 0, 0, 0.3);
-    /* color: white; */
     font-size: 15px;
     padding: 5px;
 }
 
 img{
-    /* height: 150px; */
     max-width: 300px;
     display: block;
 }
@@ -90,9 +87,40 @@ img{
 /* footer */
 footer{
     height: 80px;
-    width: 100%;
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
+footer .end-meeting {
+    align-self: stretch; 
+}
+
+.controls{
+    height: 100%;
+    flex-basis: calc(100% / 3);
+}
+
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100%;
+}
+
+.commands{
+    padding: 15px;
+    height: 100%;
+}
+
+
+.end-meeting button{
+    color: red;
+    padding: 15px;
+    height: 100%;
+}
 
 
